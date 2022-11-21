@@ -73,12 +73,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void playcat(View view){
+        catbutton.setEnabled(true);
         mPlayercat.start();
     }
     public void playdog(View view){
+        dogbutton.setEnabled(true);
         mPlayerdog.start();
     }
     public void playbird(View view){
+        birdbutton.setEnabled(true);
         mPlayerbird.start();
     }
 }
